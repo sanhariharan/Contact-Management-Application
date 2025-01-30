@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Mail, Lock, UserPlus, LogIn } from 'lucide-react';
 
 export function AuthForm({ onSubmit, type }) {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('');  
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
